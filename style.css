@@ -1,0 +1,4 @@
+/* Styles to Root pseudo-element */
+:root {
+    font: 10px/1.5 Helvetica, Arial, sans-serif;
+}
