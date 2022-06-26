@@ -60,3 +60,16 @@
     float: right;
     padding: 1rem
 }
+
+article h2 {
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+}
+
+article p {
+    font-size: 1.5rem;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
