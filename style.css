@@ -34,4 +34,18 @@
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
+    background-color: var(--main-bg-color);
+}
+
+.header a:link, a:visited {
+    color: var(--contrast-text);
+    text-align: center;
+    text-decoration: none;
+}
+
+.header a:hover, a:active {
+    background-color: var(--contrast-text);
+    color: var(--main-bg-color);
+    text-align: center;
+    text-decoration: none;
 }
