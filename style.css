@@ -22,15 +22,14 @@
     font-size: 4.5rem;
 }
 
-/* Style for the section and list with class='header' (links at top of page) */
+/* Style for the header section */
 
 .header section {
     padding-top: 1.5rem;
     margin-right: 2rem;
-    float: right;
     font-size: 2rem;
 }
-
+/* Styles for links in nav bar */
 .header section ul {
     list-style-type: none;
 }
@@ -53,5 +52,11 @@
     background-color: var(--contrast-text);
     color: var(--main-bg-color);
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+/* Styles for About me section */
+#about-me img{
+    float: right;
+    padding: 1rem
 }
