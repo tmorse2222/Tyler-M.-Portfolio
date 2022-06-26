@@ -9,12 +9,16 @@
     padding: 2rem;
     background-color: var(--main-bg-color);
     color: var(--contrast-text);
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 /* Style for <h1> in class='header' */
 
 .header h1 {
-    display: inline-block;
+    flex: 1;
+    justify-content: flex-start;
     font-size: 4.5rem;
 }
 
@@ -32,9 +36,11 @@
 }
 
 .header section ul li {
+    flex: 1;
     display: inline-block;
     margin-left: 25px;
     background-color: var(--main-bg-color);
+    justify-content: flex-end;
 }
 
 .header a:link, a:visited {
