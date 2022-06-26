@@ -1,4 +1,37 @@
-/* Styles to Root pseudo-element */
+/* Styles to Root pseudo-element and variables */
 :root {
     font: 10px/1.5 Helvetica, Arial, sans-serif;
+    --main-bg-color: rgb(216, 94, 24);
+    --contrast-text: white;
+}
+/* Style for section class="header" */
+.header {
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+    color: var(--contrast-text);
+}
+
+/* Style for <h1> in class='header' */
+
+.header h1 {
+    display: inline-block;
+    font-size: 4.5rem;
+}
+
+/* Style for the section and list with class='header' (links at top of page) */
+
+.header section {
+    padding-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+    font-size: 2rem;
+}
+
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
