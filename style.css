@@ -158,3 +158,22 @@
 .projects a:hover .popup2 {
     display: unset;
 }
+
+/* Style for footer */
+footer {
+    background-color: var(--main-bg-color);
+    color: var(--contrast-text);
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+h3 {
+    font-size: 3rem;
+}
+footer ul li a {
+    color: var(--contrast-text);
+}
+footer ul li a:hover {
+    color: var(--main-bg-color);
+    background-color: var(--contrast-text);
+}
