@@ -95,22 +95,31 @@ article h2 {
 }
 
 /* Style for My Projects section */
-main a {
-    display: flex;
-    justify-content: center;
-    background-color: var(--main-bg-color);
-}
 
-main a:hover {
+/* Style for Large Image in Project section */
+.feature {
+    max-width: 75%;
+    min-height: fit-content;
+    flex: 1;
+}
+/* Style for pop up */
+main .tooltip:hover {
     border-left: 1rem dashed var(--main-bg-color);
     border-right: 1rem dashed var(--main-bg-color);
     background-color: var(--contrast-text);
 }
-
-/* Style for Large Image in Project section */
-
-.feature {
-    max-width: 66%;
-    min-height: fit-content;
-    flex: 1;
+main .tooltip {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    position: relative;
+    align-items: center;
+}
+.tooltip .popup1 {
+    display: none;
+    font-size: 4rem;
+    position: absolute;
+    color: var(--contrast-text);
+    background-color: var(--main-bg-color);
+    opacity: 80%;
 }
