@@ -56,20 +56,30 @@
 }
 
 /* Styles for About me section */
+#about-me {
+    border: 1rem dashed var(--main-bg-color);
+    border-top: 1rem solid var(--main-bg-color);
+}
+
+/* Style for image */
 #about-me img{
     float: right;
     padding: 1rem
 }
 
+/* Style for heading */
 article h2 {
     font-size: 3rem;
     display: block;
     text-align: center;
 }
 
+/* Style for text */
 article p {
     font-size: 1.5rem;
     flex: 1;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
 }
