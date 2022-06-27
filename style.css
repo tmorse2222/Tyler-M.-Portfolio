@@ -68,10 +68,10 @@
 #about-me img{
     flex: 1;
     padding: 1rem;
-    max-height: 280px;
+    max-height: 300px;
     align-self: center;
     min-height: 300px;
-    max-width: 215px;
+    max-width: 225px;
 }
  article div {
     flex: 1;
