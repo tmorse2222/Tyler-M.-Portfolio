@@ -103,12 +103,15 @@ article h2 {
     flex: 1;
 }
 /* Style for pop up */
-main .tooltip:hover {
+.tooltip:hover {
     border-left: 1rem dashed var(--main-bg-color);
     border-right: 1rem dashed var(--main-bg-color);
     background-color: var(--contrast-text);
 }
-main .tooltip {
+.tooltip:hover .popup1 {
+    display: unset;
+}
+.tooltip {
     display: flex;
     flex-direction: column;
     background-color: var(--main-bg-color);
@@ -117,9 +120,14 @@ main .tooltip {
 }
 .tooltip .popup1 {
     display: none;
-    font-size: 4rem;
+    font-size: 3rem;
+    border-radius: 6px;
+    padding: 3px 5px 3px 5px;
     position: absolute;
+    top: 8%;
+    left: 3%;
     color: var(--contrast-text);
     background-color: var(--main-bg-color);
     opacity: 80%;
+    z-index: 1;
 }
