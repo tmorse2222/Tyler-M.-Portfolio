@@ -98,8 +98,14 @@ article h2 {
 main a {
     display: flex;
     justify-content: center;
+    background-color: var(--main-bg-color);
 }
 
+main a:hover {
+    border-left: 1rem dashed var(--main-bg-color);
+    border-right: 1rem dashed var(--main-bg-color);
+    background-color: var(--contrast-text);
+}
 
 /* Style for Large Image in Project section */
 
