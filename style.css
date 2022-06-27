@@ -135,5 +135,10 @@ article h2 {
 }
 /* Project section */
 .projects {
-    
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.projects img {
+    max-width: 100%;
 }
