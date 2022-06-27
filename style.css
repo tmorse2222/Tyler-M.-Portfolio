@@ -13,17 +13,13 @@
     flex-wrap: wrap;
     
 }
-
 /* Style for <h1> in class='header' */
-
 .header h1 {
     flex: 1;
     justify-content: flex-start;
     font-size: 4.5rem;
 }
-
 /* Style for the header section */
-
 .header section {
     padding-top: 1.5rem;
     margin-right: 2rem;
@@ -51,15 +47,11 @@
     text-align: center;
     text-decoration: underline;
 }
-
 /* Style for image after nav bar */
-
 .background-pic {
     max-width: 100%;
 }
-
 /* Styles for About me section */
-
 #about-me {
     display: flex;
     flex-direction: column;
@@ -81,30 +73,24 @@
     padding-left: 1rem;
     padding-bottom: .3rem;
 }
-
 /* Style for text */
 #about-me p {
     font-size: 1.7rem;
     padding-left: .5rem;
     padding-bottom: .5rem;
 }
-
 /* Style for My Projects section */
-
 /* Style for Large Image in Project section */
 .feature {
     max-width: 90%;
     min-height: 240px;
     flex: 1;
 }
-/* Style for pop up */
+/* Style for featured project image/ link*/
 .tooltip:hover {
     border-left: 1rem dashed var(--main-bg-color);
     border-right: 1rem dashed var(--main-bg-color);
     background-color: var(--contrast-text);
-}
-.tooltip:hover .popup1 {
-    display: unset;
 }
 .tooltip {
     display: flex;
@@ -112,6 +98,10 @@
     background-color: var(--main-bg-color);
     position: relative;
     align-items: center;
+}
+/* Style for pop up */
+.tooltip:hover .popup1 {
+    display: unset;
 }
 .tooltip .popup1 {
     display: none;
@@ -135,6 +125,7 @@
 .projects img {
     max-width: 100%;
 }
+/* Styles for links */
 .projects a {
     position: relative;
 }
@@ -142,6 +133,7 @@
     border: 1rem dashed var(--main-bg-color);
     background-color: var(--contrast-text);
 }
+/* Styles for popups */
 .projects a .popup2 {
     display: none;
     font-size: 2rem;
@@ -158,7 +150,6 @@
 .projects a:hover .popup2 {
     display: unset;
 }
-
 /* Style for footer */
 footer {
     background-color: var(--main-bg-color);
