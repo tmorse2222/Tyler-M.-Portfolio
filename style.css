@@ -93,3 +93,18 @@ article h2 {
     padding-left: .5rem;
     padding-bottom: .5rem;
 }
+
+/* Style for My Projects section */
+main a {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Style for Large Image in Project section */
+
+.feature {
+    max-width: 66%;
+    min-height: fit-content;
+    flex: 1;
+}
