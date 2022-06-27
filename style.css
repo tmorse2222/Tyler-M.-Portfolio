@@ -57,18 +57,29 @@
 
 /* Styles for About me section */
 #about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     border: 1rem dashed var(--main-bg-color);
     border-top: 1rem solid var(--main-bg-color);
 }
 
 /* Style for image */
 #about-me img{
-    float: right;
-    padding: 1rem
+    flex: 1;
+    padding: 1rem;
+    max-height: 280px;
+    align-self: center;
+    min-height: 300px;
+    max-width: 215px;
 }
+ article div {
+    flex: 1;
 
+ }
 /* Style for heading */
 article h2 {
+    flex: 1;
     font-size: 3rem;
     display: block;
     text-align: center;
@@ -79,7 +90,6 @@ article p {
     font-size: 1.5rem;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: flex-start;
     padding-left: .5rem;
     padding-bottom: .5rem;
 }
