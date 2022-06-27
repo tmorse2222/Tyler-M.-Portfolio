@@ -62,36 +62,29 @@
 
 #about-me {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     flex-wrap: wrap;
     border: 1rem dashed var(--main-bg-color);
     border-top: 1rem solid var(--main-bg-color);
 }
-/* Style for image */
-#about-me img{
-    flex: 1;
-    padding: 1rem;
-    max-height: 300px;
-    align-self: center;
-    min-height: 300px;
-    max-width: 225px;
-}
- article div {
-    flex: 1;
-
- }
 /* Style for heading */
-article h2 {
+#about-me h2 {
     flex: 1;
     font-size: 3rem;
     display: block;
     text-align: center;
 }
+/* Style for image */
+#about-me img{
+    float: right;
+    max-width: 300px;
+    padding-left: 1rem;
+    padding-bottom: .3rem;
+}
+
 /* Style for text */
 #about-me p {
-    font-size: 1.5rem;
-    flex: 1;
-    flex-wrap: wrap;
+    font-size: 1.7rem;
     padding-left: .5rem;
     padding-bottom: .5rem;
 }
