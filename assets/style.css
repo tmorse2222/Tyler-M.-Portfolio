@@ -123,7 +123,7 @@
     flex-flow: wrap;
 }
 .projects img {
-    max-width: 100%;
+    max-width: 400px;
 }
 /* Styles for links */
 .projects a {
