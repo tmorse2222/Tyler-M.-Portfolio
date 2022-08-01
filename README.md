@@ -16,5 +16,5 @@ This is a professional portfolio built from scratch intended for use in career a
 <li>Images act as links to deployed apps</li>
 <li>Responsive on mobile and screen shrinks</li>
 </ul>
-
+<img src="assets/images/app.png" alt="An image of the deployed application">
 A link to the deployed app can be found <a href="https://tmorse2222.github.io/Tyler-M.-Portfolio/">here</a>
